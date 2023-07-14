@@ -271,7 +271,7 @@ div[data-gadget-url$="gadget_sven_style.html"] header nav ul li {
 div[data-gadget-url$="gadget_sven_style.html"] header nav ul li:hover a,
 div[data-gadget-url$="gadget_sven_style.html"] header section ul li:hover a {
   background-color: #606161;
-  border-radius: 24px;
+  /* border-radius: 1em;*/
   color: #ffffff;
 }
 div[data-gadget-url$="gadget_sven_style.html"] header nav ul li a {
@@ -341,7 +341,7 @@ div[data-gadget-url$="gadget_sven_style.html"] header .languages span,
 div[data-gadget-url$="gadget_sven_style.html"] header .languages a {
   display: block;
   padding: 10px 20px;
-  border-radius: 32px;
+  /* border-radius: 32px; */
   font-weight: 600;
 }
 div[data-gadget-url$="gadget_sven_style.html"] header .languages .current {
@@ -463,7 +463,7 @@ div[data-gadget-url$="gadget_sven_style.html"] header .hamburger-menu > span {
   background: /* #000000; */ #333333;
   display: block;
   height: 3px;
-  border-radius: 100px;
+  /* border-radius: 100px;*/
   margin: 5px 0;
   width: 100%;
   transition: all .5s ease-in-out;
@@ -511,7 +511,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li {
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a {
   background-color: #d7263d;
-  border-radius: 24px;
+  /* border-radius: 24px;*/
   color: #ffffff;
   padding: .75em 1em;
   font-weight: bold;
@@ -545,7 +545,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul:first-of-
   font-size: 2em;
   width: 1.5em;
   height: 1.5em;
-  border-radius: 1em;
+  /* border-radius: 1em;*/
   display: inline-block;
   text-align: center;
   padding-top: 0.15em;
@@ -584,7 +584,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer svg {
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type h3 + a {
   color: #502379;
   padding: 0.75em 1em;
-  border-radius: 1em;
+  /* border-radius: 1em;*/
   text-decoration: none;
   display: inline-block;
   font-size: 1.25em;
@@ -621,5 +621,34 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type {
     padding: 3em;
+  }
+}
+/** ******************* Card Style ******************* **/
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 2;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li {
+  padding: 1em;
+  border: 1px solid #606161;
+  margin-bottom: 1em;
+  padding-bottom: 0;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img {
+  margin-bottom: 1em;
+  width: 100%;
+  height: 18em;
+  object-fit: cover;
+}
+@media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul {
+    column-count: 1;
   }
 }
