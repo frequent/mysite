@@ -333,20 +333,15 @@
     })
     .onEvent('click', function (evt) {
       var gadget = this,
-        target_element = evt.target.closest(HAMBURGER);
-
+        target_element = evt.target.closest(HAMBURGER),
+        is_open = gadget.element.querySelector(NAVIGATION).classList.contains(OPEN);
       if (target_element !== null) {
         gadget.element.querySelector(NAVIGATION).classList.toggle(OPEN);
         target_element.classList.toggle(CLOSE);
-      } else if (evt.target && evt.target.href && evt.target.href !== window.location.href) {
+      } else if (is_open) {
         gadget.element.querySelector(NAVIGATION).classList.toggle(OPEN);
         gadget.element.querySelector(HAMBURGER).classList.toggle(CLOSE);
       }
-
-      //if (evt.target && evt.target.href && evt.target.href !== window.location.href) {
-      //  
-      //  target_element.classList.toggle(CLOSE);
-      //}
     }, false, false);
 
 
