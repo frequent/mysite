@@ -193,7 +193,7 @@ div[data-gadget-url$="gadget_sven_style.html"] header > div {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  position: relative;
+  /* position: relative; */
   z-index: 20;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main {
@@ -210,6 +210,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main {
 /** ******************* Header Style ******************* **/
 div[data-gadget-url$="gadget_sven_style.html"] header {
   margin: 0em 0 6em 0;
+  /*background: url(img/FR-Graphic-hero-background-rainbow-cb415fe8.png) no-repeat center center;*/
 }
 div[data-gadget-url$="gadget_sven_style.html"] header a {
   font-size: 1.25em;
@@ -225,19 +226,20 @@ div[data-gadget-url$="gadget_sven_style.html"] header > a > svg {
   display: inline-block;
   vertical-align: middle;
 }
-div[data-gadget-url$="gadget_sven_style.html"] header > a > h1 {
+div[data-gadget-url$="gadget_sven_style.html"] header > a > h2 {
   display: inline-block;
   vertical-align: middle;
   font-size: 1.25em;
   padding-top: .8em;
   font-weight: 400;
   letter-spacing: -1pt;
+  padding-left: 1em;
 }
 @media screen and (max-width:44em) {
   div[data-gadget-url$="gadget_sven_style.html"] header {
     margin: 0;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] header > a > h1 {
+  div[data-gadget-url$="gadget_sven_style.html"] header > a > h2 {
     padding-top: .25em;
   }
   div[data-gadget-url$="gadget_sven_style.html"] header a img {
@@ -490,8 +492,8 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section h3 {
 div[data-gadget-url$="gadget_sven_style.html"] footer section ul {
   width: 100%;
   margin: 0;
-  padding: 0;
   display: flex;
+  padding: 0;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section ul li {
   list-style: none;
@@ -502,6 +504,8 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section ul li {
 div[data-gadget-url$="gadget_sven_style.html"] footer section > ul {
   background-color: #eaede9;
   padding: 2em 5em 3em;
+  align-items: top;
+  justify-content: center;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li {
   padding: 1em;
@@ -520,8 +524,10 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a:hover {
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div {
   background-color: #502379;
 }
-div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul:first-of-type {
+div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:first-of-type {
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:first-of-type > li {
   margin-top: 6em;
@@ -558,6 +564,8 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
   background: #ffffff;
   padding: 3em 8em 3em;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type ul {
   display: block;
@@ -573,7 +581,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
   text-decoration: none;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer svg {
-  width: 8em;
+  width: 13em;
   height: auto;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type h3 + a {
@@ -587,6 +595,12 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type h3 + a:hover {
   background: #606161;
   color: #ffffff;
+}
+div[data-gadget-url$="gadget_sven_style.html"] footer section > div p {
+  padding: 1em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
+  color: #ffffff;  
 }
 @media only screen and (max-width: 44em) {
   div[data-gadget-url$="gadget_sven_style.html"] footer section ul {
@@ -620,6 +634,9 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type {
     padding: 3em;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > div p {
+    text-align: center;
   }
 }
 /** ******************* Content Style ******************* **/
@@ -689,4 +706,58 @@ div[data-gadget-url$="gadget_sven_style.html"] main a[role=button]:hover {
     max-width: unset;
   }
 }
- 
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2 {
+  color: #ffffff;
+  background-color: #502379;
+  display: table;
+  padding: 0 0.35em;
+}
+/*
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner {
+  background-image: url(img/FR-Image-Cover-Parliament.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: 5em;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 130vh;
+  z-index: -1;
+  background-position: 0em 32%;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2 {
+  font-size: 2em;
+  position: absolute;
+  bottom: 6em;
+  right: 4em;
+  text-align: right;
+  padding: 0.25em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner + section {
+  margin-top: 130vh;
+}
+*/
+@media only screen and (max-width: 44em) {
+  /*
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner {
+    height: 70vh;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner + section {
+    margin-top: 70vh;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1 {
+    position: absolute;
+    bottom: 4em;
+    right: 0.5em;
+    letter-spacing: -1pt;
+    font-size: 2em;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2 {
+    bottom: 2.25em;
+    right: 0.75em;
+    padding: 0.25em;
+    letter-spacing: -1pt;
+    font-size: 1.5em;
+  }*/
+} 
