@@ -711,7 +711,8 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   color: #ffffff;
   background-color: #502379;
   display: table;
-  padding: 0 0.35em;
+  padding: 0.15em 0.35em;
+  box-shadow: 5px 10px rgb(27 190 111);
 }
 /*
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner {
