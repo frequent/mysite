@@ -186,7 +186,6 @@ img, video {
 }
 
 /** ******************* Container Layout ******************* **/
-div[data-gadget-url$="gadget_sven_style.html"] main,
 div[data-gadget-url$="gadget_sven_style.html"] header > div {
   max-width: 1150px;
   margin: 0 auto;
@@ -198,12 +197,14 @@ div[data-gadget-url$="gadget_sven_style.html"] header > div {
 }
 div[data-gadget-url$="gadget_sven_style.html"] main {
   width: 90%;
+  margin: 0 auto;
+  max-width: 1150px;
 }
 @media screen and (max-width:44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main {
     width: 100%;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 1em;
+    padding-right: 1em;
     box-sizing: border-box;
   }
 }
@@ -716,7 +717,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
   padding: 0.15em 0.35em;
   box-shadow: 5px 10px #1BBE6F;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner + p {
+div[data-gadget-url$="gadget_sven_style.html"] main p q {
   margin: 4em;
   text-align: center;
   font-size: 1.5em;
@@ -727,11 +728,17 @@ div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(1) h3 {
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(1) h3 ~ a {
   background-color: #FDC220;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(1) h3 ~ a:hover {
+  box-shadow: 5px 5px #FDC220;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(2) h3 {
   box-shadow: 5px 5px #E63E12;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(2) h3 ~ a {
   background-color: #E63E12;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(2) h3 ~ a:hover {
+  box-shadow: 5px 5px #E63E12;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(3) h3 {
   box-shadow: 5px 5px #82D0F4;
@@ -739,11 +746,17 @@ div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(3) h3 {
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(3) h3 ~ a {
   background-color: #82D0F4;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(3) h3 ~ a:hover {
+  box-shadow: 5px 5px #82D0F4;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(4) h3 {
   box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(4) h3 ~ a {
   background-color: #1BBE6F;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(4) h3 ~ a:hover {
+  box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
   margin-top: -1.5em;
@@ -753,8 +766,18 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
   left: .5em;
   z-index: 10;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ img {
+div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a {
+  display: inline;
+  position: relative;
+  left: 70%;
+  box-shadow: 5px 5px #502379;
+  bottom: 1em;
+}    
+div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ img {
   /* clip-path: polygon(18.75% 0, 81.25% 0, 81.25% 100%, 18.75% 100%); */ 
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section section p {
+  padding: 2em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section div a {
   color: #ffffff;
@@ -785,5 +808,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section div {
   div[data-gadget-url$="gadget_sven_style.html"] main section section div {
     display: block;
     width: 100%;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a {
+    position: static;
+    display: block;
   }
 }
