@@ -573,6 +573,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type ul {
   display: block;
+  padding-left: 1em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type ul li {
   display: block;
