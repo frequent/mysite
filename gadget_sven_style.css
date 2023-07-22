@@ -489,7 +489,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > h2 {
   margin: 2em 0 0 0;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section h3 {
-  color: #d7263d;
+  color: #502379;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section ul {
   width: 100%;
@@ -513,15 +513,17 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li {
   padding: 1em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a {
-  background-color: #d7263d;
+  background-color: #502379;
   color: #ffffff;
   padding: .75em 1em;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.25em;
+  box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a:hover {
-  background-color: #e56399;
+  background-color: #1BBE6F;
+  box-shadow: 5px 5px #502379;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div {
   background-color: #502379;
@@ -601,6 +603,9 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div p {
   padding: 1em;
 }
+div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul ~ p {
+  background-image: url(img/FR-Graphic-hero-background-rainbow-cb415fe8.png);
+}
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
   color: #ffffff;  
 }
@@ -644,7 +649,12 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
 /** ******************* Content Style ******************* **/
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 {
   font-size: 4em;
-  text-align: center;
+  background-color: #502379;
+  display: inline-block;
+  color: #ffffff;
+  padding: 0.15em 0.35em;
+  box-shadow: 5px 10px #1BBE6F;
+  margin-bottom: .5em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight p {
   line-height: 24px;
@@ -657,7 +667,6 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul {
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li {
   padding: 1em;
-  border: 1px solid #606161;
   margin-bottom: 1em;
   padding-bottom: 0;
   break-inside: avoid-column;
@@ -667,6 +676,21 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img {
   width: 100%;
   height: 18em;
   object-fit: cover;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2 {
+  background-color: #502379;
+  color: #ffffff;
+  display: inline;
+  padding: .15em 0 .15em 0;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2 + p {
+  margin-top: .5em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figure {
+  margin: 0;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figure img {
+  width: 100%;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figcaption {
   text-align: center;
@@ -682,13 +706,13 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figcaption 
   }
 }
 div[data-gadget-url$="gadget_sven_style.html"] main a {
-  color: #e56399;
+  color: #502379;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main a:hover {
-  color: #d7263d;
+  color: #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main a[role=button] {
-  background-color: #d7263d;
+  background-color: #502379;
   color: #ffffff;
   padding: .75em 1em;
   font-weight: bold;
@@ -698,9 +722,11 @@ div[data-gadget-url$="gadget_sven_style.html"] main a[role=button] {
   max-width: 20%;
   text-align: center;
   margin: 0.5em auto;
+  box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main a[role=button]:hover {
-  background-color: #502379;
+  background-color: #1BBE6F;
+  box-shadow: 5px 10px #502379;
 }
 
 @media only screen and (max-width: 44em) {
@@ -807,7 +833,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-child(2n
 div[data-gadget-url$="gadget_sven_style.html"] main section section div {
   flex: 1;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section figure {
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   margin-left: -20%;
   margin-right: -20%;
   margin-top: -24%;
@@ -829,7 +855,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section figure {
     display: block;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
-    left: 48%;
+    left: 35%;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main p q {
    margin: 3em .5em;

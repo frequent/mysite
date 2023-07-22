@@ -8,8 +8,8 @@
     HAMBURGER = ".hamburger-menu",
     OPEN = "open",
     CLOSE = "close",
-    SCM_ITEM_LIST = ".scm-menu ul";
-    var INTERSECTION_OBSERVER = window.IntersectionObserver;
+    SCM_ITEM_LIST = ".scm-menu ul",
+    INTERSECTION_OBSERVER = window.IntersectionObserver;
 
   function promiseEventListener(target, type, useCapture) {
     //////////////////////////
@@ -273,6 +273,7 @@
           input = div.querySelector('div.input');
           if (input) {
             html_content = input.firstChild;
+            console.log(ob)
             observeImage(gadget.state, html_content.querySelectorAll("img"));
             domsugar(gadget.element.querySelector('main'), [
               domsugar("section", {
