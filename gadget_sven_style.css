@@ -817,7 +817,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section div a {
   text-align: center;
   margin: -1em 0 2em 0;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section section div a:hover {
+div[data-gadget-url$="gadget_sven_style.html"] main section section div a[role="button"]:hover {
   background-color: #502379;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section div a svg {
@@ -855,7 +855,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
     display: block;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
-    left: 35%;
+    left: 49%;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main p q {
    margin: 3em .5em;
