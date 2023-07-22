@@ -700,6 +700,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main a[role=button] {
 div[data-gadget-url$="gadget_sven_style.html"] main a[role=button]:hover {
   background-color: #502379;
 }
+
 @media only screen and (max-width: 44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main a[role=button] {
     width: 100%;
@@ -714,6 +715,11 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
   display: table;
   padding: 0.15em 0.35em;
   box-shadow: 5px 10px #1BBE6F;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner + p {
+  margin: 4em;
+  text-align: center;
+  font-size: 1.5em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(1) h3 {
   box-shadow: 5px 5px #FDC220;
@@ -739,34 +745,44 @@ div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(4) h3 {
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(4) h3 ~ a {
   background-color: #1BBE6F;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ a {
+div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
+  margin-top: -1.5em;
+  font-size: 2.5em;
+  position: relative;
+  top: 1em;
+  left: .5em;
+  z-index: 10;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ img {
+  /* clip-path: polygon(18.75% 0, 81.25% 0, 81.25% 100%, 18.75% 100%); */ 
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section section div a {
   color: #ffffff;
   padding: 0.5em;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.25em;
-  display: block;
-  max-width: 20%;
+  display: inline-block;
   text-align: center;
   margin: -1em 0 2em 0;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ a:hover {
+div[data-gadget-url$="gadget_sven_style.html"] main section section div a:hover {
   background-color: #502379;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ a svg {
+div[data-gadget-url$="gadget_sven_style.html"] main section section div a svg {
   padding: 2px 0 0 0;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section {
+div[data-gadget-url$="gadget_sven_style.html"] main section section {
   display: flex;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section div {
+div[data-gadget-url$="gadget_sven_style.html"] main section section div {
   flex: 1;
 }
 @media only screen and (max-width: 44em) {
-  div[data-gadget-url$="gadget_sven_style.html"] main section {
+  div[data-gadget-url$="gadget_sven_style.html"] main section section {
     display: unset;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main section div {
+  div[data-gadget-url$="gadget_sven_style.html"] main section section div {
     display: block;
     width: 100%;
   }
