@@ -206,6 +206,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main {
     padding-left: 1em;
     padding-right: 1em;
     box-sizing: border-box;
+    overflow: hidden;
   }
 }
 /** ******************* Header Style ******************* **/
