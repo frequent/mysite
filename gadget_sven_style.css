@@ -698,7 +698,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main a[role=button] {
   margin: 0.5em auto;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main a[role=button]:hover {
-  background-color: #e56399;
+  background-color: #502379;
 }
 @media only screen and (max-width: 44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main a[role=button] {
@@ -753,51 +753,21 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ a {
 div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ a:hover {
   background-color: #502379;
 }
-/*
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner {
-  background-image: url(img/FR-Image-Cover-Parliament.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  top: 5em;
-  left: 0;
-  right: 0;
-  position: absolute;
-  height: 130vh;
-  z-index: -1;
-  background-position: 0em 32%;
+div[data-gadget-url$="gadget_sven_style.html"] main section h3 ~ a svg {
+  padding: 2px 0 0 0;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2 {
-  font-size: 2em;
-  position: absolute;
-  bottom: 6em;
-  right: 4em;
-  text-align: right;
-  padding: 0.25em;
+div[data-gadget-url$="gadget_sven_style.html"] main section {
+  display: flex;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner + section {
-  margin-top: 130vh;
+div[data-gadget-url$="gadget_sven_style.html"] main section div {
+  flex: 1;
 }
-*/
 @media only screen and (max-width: 44em) {
-  /*
-  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner {
-    height: 70vh;
+  div[data-gadget-url$="gadget_sven_style.html"] main section {
+    display: unset;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner + section {
-    margin-top: 70vh;
+  div[data-gadget-url$="gadget_sven_style.html"] main section div {
+    display: block;
+    width: 100%;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1 {
-    position: absolute;
-    bottom: 4em;
-    right: 0.5em;
-    letter-spacing: -1pt;
-    font-size: 2em;
-  }
-  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2 {
-    bottom: 2.25em;
-    right: 0.75em;
-    padding: 0.25em;
-    letter-spacing: -1pt;
-    font-size: 1.5em;
-  }*/
-} 
+}
