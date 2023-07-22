@@ -721,6 +721,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main p q {
   margin: 4em;
   text-align: center;
   font-size: 1.5em;
+  display: block;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section:nth-of-type(1) h3 {
   box-shadow: 5px 5px #FDC220;
