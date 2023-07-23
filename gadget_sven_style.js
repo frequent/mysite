@@ -50,7 +50,7 @@
       var img = entry.target;
       if (img.classList.contains("lazy")) {
         img.classList.remove("lazy");
-        img.setAttribute("src", img.getAttribute("data-src"));
+        //img.setAttribute("src", img.getAttribute("data-src"));
         observer.unobserve(img);
       }
     });
