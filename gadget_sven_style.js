@@ -48,8 +48,9 @@
   function loadImage(entries, observer) {
     entries.forEach(function (entry) {
       var img = entry.target;
-      if (img.classList.contains("sven-lazy")) {
-        img.classList.remove("sven-lazy");
+      if (img.classList.contains("lazy")) {
+        img.classList.remove("lazy");
+        img.setAttribute("src", img.getAttribute("data-src"));
         observer.unobserve(img);
       }
     });
@@ -273,7 +274,6 @@
           input = div.querySelector('div.input');
           if (input) {
             html_content = input.firstChild;
-            console.log(html_content.querySelectorAll("img"))
             observeImage(gadget.state, html_content.querySelectorAll("img"));
             domsugar(gadget.element.querySelector('main'), [
               domsugar("section", {

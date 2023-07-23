@@ -696,7 +696,17 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figure img 
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figcaption {
   text-align: center;
 }
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight .float {
+  float: right;
+  padding: 2em;
+  width: 50%;
+}
 @media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight .float {
+    float: none;
+    padding: 1em;
+    width: 100%;
+  }
   div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 {
     font-size: 3em;
     text-align: center;
@@ -839,6 +849,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   margin-right: -20%;
   margin-top: -24%;
   clip-path: polygon(0 24%, 100% 24%, 100% 100%, 0% 100%); 
+  pointer-events: none;
 }
 @media only screen and (max-width: 44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main section section {
@@ -869,6 +880,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green {
   position: relative;
   margin-bottom: 3em;
+  pointer-events: none;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow h1,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red h1,
