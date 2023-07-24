@@ -622,9 +622,13 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
   div[data-gadget-url$="gadget_sven_style.html"] footer section > h2 {
     padding: 1em 1em 0;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] footer section ul li {
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li {
     display: block;
     margin-bottom: 2em;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul:first-of-type li {
+    display: inline;
+    padding: 0 1em;
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a {
     display: block;
@@ -632,16 +636,18 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
     text-align: center;
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:first-of-type > li {
-    margin-top: 0;
-    margin-bottom: 2em;
-    padding-top: 2em;
+    display:inline;
+    padding: 0 1em;
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type ul li {
-    text-align: center;
+    text-align: left;
     margin: 0;
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type {
     padding: 3em;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type > li {
+    margin-bottom: 1em;
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > div p {
     text-align: center;
@@ -659,6 +665,7 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 {
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight p {
   line-height: 24px;
+  text-align: justify;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul {
   list-style: none;
@@ -757,7 +764,6 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q {
   margin: 4em;
-  text-align: center;
   font-size: 1.5em;
   display: block;
 }
