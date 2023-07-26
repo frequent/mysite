@@ -653,6 +653,32 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
     text-align: center;
   }
 }
+div[data-gadget-url$="gadget_sven_style.html"] form input {
+  font-family: 'Ubuntu';
+  font-size: 1.1em;
+  padding: .25em;
+  margin: .5em;
+  border: 0 none;
+}
+div[data-gadget-url$="gadget_sven_style.html"] form label {
+  font-size: 1.25em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] form button {
+  background-color: #1BBE8C;
+  color: #ffffff;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 1.25em;
+  border: 0 none;
+  padding: .25em .5em;
+  margin-top: .25em;
+  box-shadow: 5px 5px #ffffff;
+}
+form button:hover {
+  background-color: #ffffff;
+  color: #502379;
+  box-shadow: 5px 5px #1BBE6F;
+}
 /** ******************* Content Style ******************* **/
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 {
   font-size: 4em;
