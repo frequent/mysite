@@ -873,7 +873,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
     display: block;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
-    left: 49%;
+    left: 35%;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main p q {
    margin: 3em .5em;
@@ -973,8 +973,8 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2 ~
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red h2,
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue h2,
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green h2 {
-    font-size: 1.5em;
-    top: 55%;
+    font-size: 1.35em;
+    top: 57%;
     max-width: 92%;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2 ~ ul,
