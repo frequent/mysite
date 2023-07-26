@@ -662,6 +662,7 @@ div[data-gadget-url$="gadget_sven_style.html"] form input {
 }
 div[data-gadget-url$="gadget_sven_style.html"] form label {
   font-size: 1.25em;
+  color: #ffffff;
 }
 div[data-gadget-url$="gadget_sven_style.html"] form button {
   background-color: #1BBE8C;
@@ -673,8 +674,9 @@ div[data-gadget-url$="gadget_sven_style.html"] form button {
   padding: .25em .5em;
   margin-top: .25em;
   box-shadow: 5px 5px #ffffff;
+  pointer: cursor;
 }
-form button:hover {
+div[data-gadget-url$="gadget_sven_style.html"] form button:hover {
   background-color: #ffffff;
   color: #502379;
   box-shadow: 5px 5px #1BBE6F;
