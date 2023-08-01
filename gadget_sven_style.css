@@ -713,7 +713,8 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img {
   height: 18em;
   object-fit: cover;
 }
-div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2 {
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2,
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 {
   background-color: #502379;
   color: #ffffff;
   display: inline;
@@ -964,7 +965,8 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2 {
   color: #ffffff;
   background-color: #502379;
   display: table;
