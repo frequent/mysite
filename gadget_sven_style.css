@@ -720,6 +720,10 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img +
   display: inline;
   padding: .15em 0 .15em 0;
 }
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 {
+  box-shadow: unset;
+  margin-bottom: .5em;
+}
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2 + p {
   margin-top: .5em;
 }
@@ -959,7 +963,8 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   box-shadow: 5px 5px #82D0F4;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h2,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2 {
   box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2,
@@ -972,6 +977,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2 {
   display: table;
   padding: 0.15em 0.35em;
   font-size: 2.5em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2 {
+  margin-top: 2em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2 ~ ul h3,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2 ~ ul h3, 
