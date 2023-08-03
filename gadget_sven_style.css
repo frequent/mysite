@@ -911,7 +911,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section div {
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   margin-left: -20%;
   margin-right: -20%;
-  margin-top: -24%;
+  margin-top: -20%;
   clip-path: polygon(0 24%, 100% 24%, 100% 100%, 0% 100%); 
   pointer-events: none;
 }
@@ -944,6 +944,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   }
   div[data-gadget-url$="gadget_sven_style.html"] main p q {
    margin: 3em 0 .5em;
+   text-align: left;
   }
 }
 
