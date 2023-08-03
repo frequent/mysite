@@ -712,6 +712,7 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img {
   width: 100%;
   height: 18em;
   object-fit: cover;
+  box-shadow: 5px 5px #502379;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2,
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 {
@@ -722,7 +723,8 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img +
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 {
   box-shadow: unset;
-  margin-bottom: .5em;
+  margin-bottom: .25em;
+  display: inline-block;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2 + p {
   margin-top: .5em;
