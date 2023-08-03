@@ -202,11 +202,16 @@ div[data-gadget-url$="gadget_sven_style.html"] main {
 }
 @media screen and (max-width:44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main {
+    /*
     width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
     box-sizing: border-box;
     overflow: hidden;
+    */
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 /** ******************* Header Style ******************* **/
@@ -919,6 +924,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   }
   div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-child(2n) {
     flex-direction: unset;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] main section section p {
+    padding: 2em 0;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main section section div {
     display: block;
