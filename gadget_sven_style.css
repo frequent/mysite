@@ -798,14 +798,21 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
   box-shadow: 5px 10px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q {
-  margin: 4em;
+  margin: 2em 0;
   font-size: 1.5em;
+  display: inline-block;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main + p q {
+  margin: 4em;
   display: block;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main p q:before {
-  padding-left: .25em;
+div[data-gadget-url$="gadget_sven_style.html"] main p q + span {
+  padding-left: .5em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q:after {
+  padding-left: .25em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main p q:before {
   padding-right: .25em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(1) h3 {
@@ -917,6 +924,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
     left: 35%;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main p q {
+    margin: 1em 0;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] main + p q {
    margin: 3em .5em;
   }
 }
@@ -972,16 +982,14 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h2,
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner + p + h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
   box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2, 
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner + p + h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
   color: #ffffff;
   background-color: #502379;
   display: table;
