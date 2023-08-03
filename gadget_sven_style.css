@@ -798,22 +798,27 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
   box-shadow: 5px 10px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q {
-  margin: 2em 0;
+  margin: 2em 0 0 0;
   font-size: 1.5em;
   display: inline-block;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main + p q {
+div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q {
   margin: 4em;
   display: block;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q + span {
-  padding-left: .5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: block;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q:after {
   padding-left: .25em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q:before {
   padding-right: .25em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(1) {
+  padding-top: 3em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(1) h3 {
   box-shadow: 5px 5px #FDC220;
@@ -923,7 +928,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
     left: 35%;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main p q {
+  div[data-gadget-url$="gadget_sven_style.html"] main .banner p q {
     margin: 1em 0;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main + p q {
