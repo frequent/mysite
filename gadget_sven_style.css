@@ -972,14 +972,16 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h2,
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner + p + h2 {
   box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2, 
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner + p + h2 {
   color: #ffffff;
   background-color: #502379;
   display: table;
