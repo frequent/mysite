@@ -914,6 +914,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   div[data-gadget-url$="gadget_sven_style.html"] main section section {
     display: unset;
   }
+  div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(1) {
+    display: block;
+  }
   div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-child(2n) {
     flex-direction: unset;
   }
@@ -928,11 +931,11 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
     left: 35%;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main .banner p q {
+  div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q {
     margin: 1em 0;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main + p q {
-   margin: 3em .5em;
+  div[data-gadget-url$="gadget_sven_style.html"] main p q {
+   margin: 3em 0 .5em;
   }
 }
 
@@ -1001,7 +1004,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
   padding: 0.15em 0.35em;
   font-size: 2.5em;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner + h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
   margin-top: 2em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2 ~ ul h3,
