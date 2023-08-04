@@ -946,6 +946,14 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
    margin: 3em 0 .5em;
    text-align: left;
   }
+  div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
+    margin-left: -5%;
+    margin-right: -5%;
+    margin-top: -20%;
+    clip-path: polygon(0 24%, 100% 24%, 100% 100%, 0% 100%);
+    pointer-events: none;
+    overflow: hidden;
+}
 }
 
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow,
