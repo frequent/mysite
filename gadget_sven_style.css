@@ -693,7 +693,7 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 {
   display: inline-block;
   color: #ffffff;
   padding: 0.15em 0.35em;
-  box-shadow: 5px 10px /* #1BBE6F */ #FDC220;
+  box-shadow: 5px 10px #1BBE6F;
   margin-bottom: .5em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight p {
@@ -818,7 +818,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
   background-color: #502379;
   display: table;
   padding: 0.15em 0.35em;
-  box-shadow: 5px 10px /* #1BBE6F */ #FDC220;
+  box-shadow: 5px 10px #FDC220;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner figure {
   margin-left: -20%;
@@ -845,6 +845,8 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner h1 ~ figure 
   }
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner h1 ~ figure {
     margin-top: -5%;
+    margin-left: -5%;
+    margin-right: -5%;
     clip-path: unset;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1 {
@@ -1034,8 +1036,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green h2 {
   font-size: 2.5em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h2,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow ~ h2, 
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow ~ h2 {
   box-shadow: 5px 5px #FDC220;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h2,
@@ -1047,7 +1048,8 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   box-shadow: 5px 5px #82D0F4;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h2,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
   box-shadow: 5px 5px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2,
