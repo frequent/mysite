@@ -9,11 +9,11 @@
     OPEN = "open",
     CLOSE = "close",
     SCM_ITEM_LIST = ".scm-menu ul",
-    INTERSECTION_OBSERVER = window.IntersectionObserver;
+    INTERSECTION_OBSERVER = window.IntersectionObserver,
     LANG_URL = {
-      "en": "languages.html",
+      "en": "en/languages.html",
       "fr": "langues.html",
-      "de": "sprachen.html"
+      "de": "de/sprachen.html"
     };
 
   function promiseEventListener(target, type, useCapture) {
