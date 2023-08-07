@@ -10,6 +10,11 @@
     CLOSE = "close",
     SCM_ITEM_LIST = ".scm-menu ul",
     INTERSECTION_OBSERVER = window.IntersectionObserver;
+    LANG_URL = {
+      "en": "languages.html",
+      "fr": "langues.html",
+      "de": "sprachen.html"
+    };
 
   function promiseEventListener(target, type, useCapture) {
     //////////////////////////
@@ -143,7 +148,7 @@
       child_list,
       domsugar("li", [
         domsugar("a", {
-          'href': "./langues.html",
+          'href': "./" + LANG_URL[language],
           'class': "lang-wrapper"
         }, [
           domsugar('i', {
