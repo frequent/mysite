@@ -798,6 +798,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   position: relative;
   pointer-events: none;
 }
+/*
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1 {
   z-index: 1;
   margin-top: 8.5em;
@@ -811,6 +812,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   font-size: 2.5em;
   margin-left: -3em;
 }
+*/
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1,
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
@@ -928,10 +930,11 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section h3 {
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
   display: inline;
-  position: relative;
-  left: 70%;
   box-shadow: 5px 5px #502379;
   bottom: 1em;
+  margin-left: auto;
+  margin-right: 1em;
+  position: relative;
 }    
 div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ img {
   /* clip-path: polygon(18.75% 0, 81.25% 0, 81.25% 100%, 18.75% 100%); */ 
@@ -964,6 +967,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-child(2n
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section div {
   flex: 1;
+  text-align: right;
 }
 @media only screen and (max-width: 44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main section section {
@@ -985,9 +989,6 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section div {
   div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a {
     position: static;
     display: block;
-  }
-  div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
-    left: 35%;
   }
   div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q {
     margin: 1em 0;
