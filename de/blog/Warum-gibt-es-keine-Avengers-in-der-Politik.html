@@ -32,25 +32,25 @@
     <meta name="twitter:image" content="https://svenfranck.eu/img/icon_512x512.png" />
 
     <link rel="canonical" href="https://svenfranck.eu/" />
-    <link rel="icon" href="../../img/favicon.ico" sizes="32x32">
-    <link rel="icon" href="../../img/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="../img/favicon.ico" sizes="32x32">
+    <link rel="icon" href="../img/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="../manifest.webmanifest" />
 
     <base href="https://svenfranck.eu/" />
 
     <noscript>
-      <link rel="stylesheet" href="../../lib/jsstyle.css">
+      <link rel="stylesheet" href="../lib/jsstyle.css">
     </noscript>
 
-    <script src="../../lib/rsvp.js"></script>
-    <script src="../../lib/renderjs.js"></script>
-    <script src="../../lib/jsstyle.js"></script>
+    <script src="../lib/rsvp.js"></script>
+    <script src="../lib/renderjs.js"></script>
+    <script src="../lib/jsstyle.js"></script>
 
     <link rel="prerender" href="svenfranck.eu/gadget_sven_style.html">
   
   </head>
-  <body data-nostyle-css-url="../../lib/jsstyle.css" data-nostyle-gadget-url="../gadget_sven_style.html">
+  <body data-nostyle-css-url="../lib/jsstyle.css" data-nostyle-gadget-url="../gadget_sven_style.html">
     <nav id="socialmedia">
       <ul>
         <li><a role="button" aria-label="Folge mir auf Facebook" href="https://www.facebook.com/sven.franck" target="_blank" rel="noopener noreferrer" title="Folge mir auf Facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -79,7 +79,11 @@
       <div class="input"><div class="page hidden_label">
         <h1>Warum gibt es keine Avengers in der Politik?</h1>
         <figure>
-          <img src="../../img/FR-Graphic-Avengers-Politique.png" alt="Die Avengers der Politik?" />
+          <picture>
+            <source media="(min-width: 44em)" srcset="../../img/FR-Graphic-Avengers-Politique.webp" />
+            <source media="(max-width: 44em)" srcset="../../img/FR-Graphic-Avengers-Politique-640.webp" />
+            <img class="lazy" src="../../img/FR-Graphic-Avengers-Politique.webp" alt="Die Avengers der Politik?" />
+          </picture>
           <figcaption><i>Die Avengers der Politik? - Photo von Midjourney</i></figcaption>
         </figure>
         <p><i>Blog, 27/06/2023, von Sven Franck</i></p>
