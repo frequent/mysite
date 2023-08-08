@@ -192,7 +192,6 @@ div[data-gadget-url$="gadget_sven_style.html"] header > div {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  /* position: relative; */
   z-index: 20;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main {
@@ -202,13 +201,6 @@ div[data-gadget-url$="gadget_sven_style.html"] main {
 }
 @media screen and (max-width:44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main {
-    /*
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    box-sizing: border-box;
-    overflow: hidden;
-    */
     width: auto;
     margin-left: 5%;
     margin-right: 5%;
@@ -217,7 +209,6 @@ div[data-gadget-url$="gadget_sven_style.html"] main {
 /** ******************* Header Style ******************* **/
 div[data-gadget-url$="gadget_sven_style.html"] header {
   margin: 0em 0 6em 0;
-  /*background: url(img/FR-Graphic-hero-background-rainbow-cb415fe8.png) no-repeat center center;*/
 }
 div[data-gadget-url$="gadget_sven_style.html"] header a {
   font-size: 1.25em;
@@ -258,7 +249,6 @@ div[data-gadget-url$="gadget_sven_style.html"] header > a > h2 {
 }
 div[data-gadget-url$="gadget_sven_style.html"] header {
   display: flex; 
-  /* justify-content: space-between;*/
   align-items: center;
   flex-wrap: wrap;
   margin-top: .5em;
@@ -467,7 +457,7 @@ div[data-gadget-url$="gadget_sven_style.html"] header .hamburger-menu {
   right: 1em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] header .hamburger-menu > span {
-  background: /* #000000; */ #333333;
+  background: #333333;
   display: block;
   height: 3px;
   margin: 5px 0;
@@ -610,12 +600,15 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div p {
   padding: 1em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul ~ p {
-  background-image: url(img/FR-Graphic-hero-background-rainbow-cb415fe8.png);
+  background-image: url(img/FR-Graphic-hero-background-rainbow.webp);
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
   color: #ffffff;  
 }
 @media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul ~ p {
+    background-image: url(img/FR-Graphic-hero-background-rainbow-1280.webp);
+  }
   div[data-gadget-url$="gadget_sven_style.html"] footer section ul {
     width: 100%;
     display: block;
@@ -798,21 +791,6 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   position: relative;
   pointer-events: none;
 }
-/*
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1 {
-  z-index: 1;
-  margin-top: 8.5em;
-  position: absolute;
-  margin-left: -2em;
-}
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2 {
-  position: absolute;
-  margin-top: 17em;
-  z-index: 1;
-  font-size: 2.5em;
-  margin-left: -3em;
-}
-*/
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1,
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
@@ -936,9 +914,6 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role=
   margin-right: 1em;
   position: relative;
 }    
-div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ img {
-  /* clip-path: polygon(18.75% 0, 81.25% 0, 81.25% 100%, 18.75% 100%); */ 
-}
 div[data-gadget-url$="gadget_sven_style.html"] main section section p {
   padding: 2em;
 }
