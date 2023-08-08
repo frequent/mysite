@@ -30,9 +30,9 @@
     <meta name="twitter:image" content="https://svenfranck.eu/img/FR-Image-Democratie.webp" />
 
     <link rel="canonical" href="https://svenfranck.eu/" />
-    <link rel="icon" href="../../img/favicon.ico" sizes="32x32">
-    <link rel="icon" href="../../img/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="../../img/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="../img/favicon.ico" sizes="32x32">
+    <link rel="icon" href="../img/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../img/apple-touch-icon.png"><!-- 180×180 -->
     <link rel="manifest" href="../manifest.webmanifest" />
 
     <link rel="alternate" hreflang="fr" href="https://svenfranck.eu/topic/democratie.html" />
@@ -42,17 +42,17 @@
     <base href="https://svenfranck.eu/" />
 
     <noscript>
-      <link rel="stylesheet" href="../../lib/jsstyle.css">
+      <link rel="stylesheet" href="../lib/jsstyle.css">
     </noscript>
 
-    <script src="../../lib/rsvp.js"></script>
-    <script src="../../lib/renderjs.js"></script>
-    <script src="../../lib/jsstyle.js"></script>
+    <script src="../lib/rsvp.js"></script>
+    <script src="../lib/renderjs.js"></script>
+    <script src="../lib/jsstyle.js"></script>
 
     <link rel="prerender" href="https://svenfranck.eu/gadget_sven_style.html">
   
   </head>
-  <body data-nostyle-css-url="../../lib/jsstyle.css" data-nostyle-gadget-url="../gadget_sven_style.html">
+  <body data-nostyle-css-url="../lib/jsstyle.css" data-nostyle-gadget-url="../gadget_sven_style.html">
     <nav id="socialmedia">
       <ul>
         <li><a role="button" aria-label="Folge mir auf Facebook" href="https://www.facebook.com/sven.franck" target="_blank" rel="noopener noreferrer" title="Folge mir auf Facebook"><i class="fab fa-facebook-f"></i></a></li>
@@ -83,7 +83,11 @@
           <h1>Demokratie</h1>
           <h2>Warum wir an der Demokratie in Europa und in den Mitgliedstaaten arbeiten müssen</h2>
           <figure>
-            <img src="../../img/FR-Image-Democratie.webp" alt="Warum wir an der Demokratie in Europa und in den Mitgliedstaaten arbeiten müssen" />
+            <picture>
+              <source media="(min-width: 44em)" srcset="../img/FR-Image-Democratie.webp" />
+              <source media="(max-width: 44em)" srcset="../img/FR-Image-Democratie-640.webp" />
+              <img class="lazy" src="../img/FR-Image-Democratie-640.webp" alt="Warum wir an der Demokratie in Europa und in den Mitgliedstaaten arbeiten müssen" />
+            </picture>
             <figcaption>Photo von <a href="https://unsplash.com/@johnnyhammer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">João Marcelo Martins</a> auf <a href="https://unsplash.com/de/fotos/hmSZSgCUIMk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
           </figure>
         </div>
