@@ -68,9 +68,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: url('font/ubuntu-v12-latin-regular.eot');
-  src: url('font/ubuntu-v12-latin-regular.eot?#iefix') format('embedded-opentype'),
-       url('font/ubuntu-v12-latin-regular.woff2') format('woff2'),
+  src: url('font/ubuntu-v12-latin-regular.woff2') format('woff2'),
        url('font/ubuntu-v12-latin-regular.woff') format('woff'),
        url('font/ubuntu-v12-latin-regular.ttf') format('truetype');
 }
@@ -79,9 +77,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: url('font/ubuntu-v12-latin-700.eot');
-  src: url('font/ubuntu-v12-latin-700.eot?#iefix') format('embedded-opentype'),
-       url('font/ubuntu-v12-latin-700.woff2') format('woff2'),
+  src: url('font/ubuntu-v12-latin-700.woff2') format('woff2'),
        url('font/ubuntu-v12-latin-700.woff') format('woff'),
        url('font/ubuntu-v12-latin-700.ttf') format('truetype');
 }
