@@ -194,6 +194,23 @@
                href="https://svenfranck.eu/topic/economie.html"/>
   </url>
   <url>
+    <loc>https://svenfranck.eu/blog/SOTEU-2024-Aller-en-avant-sans-bouger.html</loc>
+    <lastmod>2023-09-14T19:30:00+00:00</lastmod>
+    <priority>0.64</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/blog/Warum-kein-Misstrauensvotum-gegen-die-Europäische-Kommission.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/blog/SOTEU-2024-Travelling-without-moving.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/blog/SOTEU-2024-Auf-der-Stelle-treten.html"/>
+  </url>
+  <url>
     <loc>https://svenfranck.eu/blog/Et-si-on-censurait-la-Commission-europeenne.html</loc>
     <lastmod>2023-08-07T18:46:26+00:00</lastmod>
     <priority>0.64</priority>
