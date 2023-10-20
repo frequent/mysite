@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+pr<?xml version="1.0" encoding="UTF-8"?>
 <urlset
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
@@ -76,7 +76,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/presse.html</loc>
-    <lastmod>2023-10-17T13:31:26+00:00</lastmod>
+    <lastmod>2023-10-20T22:19:00+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
