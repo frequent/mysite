@@ -279,6 +279,8 @@
           input = div.querySelector('div.input');
           if (input) {
             html_content = input.firstChild;
+            console.log(input)
+            console.log(input.firtChild)
             observeImage(gadget.state, html_content.querySelectorAll("img"));
             domsugar(gadget.element.querySelector('main'), [
               domsugar("section", {
