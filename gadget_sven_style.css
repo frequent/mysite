@@ -986,18 +986,23 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green h1 {
   position: absolute;
   top: 40%;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow ~ a[role="button"] {
   box-shadow: 5px 10px #FDC220;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red ~ a[role="button"] {
   box-shadow: 5px 10px #E63E12;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue ~ a[role="button"] {{
   box-shadow: 5px 10px #82D0F4;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ a[role="button"] {
   box-shadow: 5px 10px #1BBE6F;
 }
+
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red h2,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue h2,
