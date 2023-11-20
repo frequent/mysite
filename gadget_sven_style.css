@@ -970,6 +970,10 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section div {
   }
 }
 
+/*=== header theming === */
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
+  margin-top: 2em;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue,
@@ -978,71 +982,64 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green {
   margin-bottom: 3em;
   pointer-events: none;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow h1,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red h1,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue h1,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green h1 {
+/* h1/h2 intro header positioning */
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1 {
   z-index: 20;
   position: absolute;
   top: 40%;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow ~ a[role="button"] {
-  box-shadow: 5px 10px #FDC220;
-}
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red ~ a[role="button"] {
-  box-shadow: 5px 10px #E63E12;
-}
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue ~ a[role="button"] {{
-  box-shadow: 5px 10px #82D0F4;
-}
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ a[role="button"] {
-  box-shadow: 5px 10px #1BBE6F;
-}
-
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1 + h2,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1 + h2,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1 + h2 {
   z-index: 20;
   position: absolute;
   top: 52%;
   font-size: 2.5em;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2 ~ ul,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2 ~ ul, 
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2 ~ ul, 
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2 ~ ul {
+  column-count: 3;
+}
+/* coloring of H1/H2 and buttons */
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 {
+  box-shadow: 5px 10px #FDC220;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h2,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow ~ a[role="button"] {
   box-shadow: 5px 5px #FDC220;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1 {
+  box-shadow: 5px 10px #E63E12;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h2,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red ~ a[role="button"]{
   box-shadow: 5px 5px #E63E12;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1 {
+  box-shadow: 5px 10px #82D0F4;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h2,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue ~ a[role="button"] {
   box-shadow: 5px 5px #82D0F4;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1 {
+  box-shadow: 5px 10px #1BBE6F;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h2,
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green ~ a[role="button"] {
   box-shadow: 5px 5px #1BBE6F;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
-  color: #ffffff;
-  background-color: #502379;
-  display: table;
-  padding: 0.15em 0.35em;
-  font-size: 2.5em;
-}
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
-  margin-top: 2em;
-}
+/* uncolor H3 */
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2 ~ ul h3,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2 ~ ul h3, 
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2 ~ ul h3, 
@@ -1056,12 +1053,25 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2 ~
   padding: unset;
   margin-bottom: 0.5em
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2 ~ ul,
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2 ~ ul, 
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2 ~ ul, 
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2 ~ ul {
-  column-count: 3;
+
+/* overrides 
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight ~ h2 {
+  box-shadow: 5px 5px #1BBE6F;
 }
+
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2,
+div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2 {
+  color: #ffffff;
+  background-color: #502379;
+  display: table;
+  padding: 0.15em 0.35em;
+  font-size: 2.5em;
+}
+*/
+
 @media only screen and (max-width: 44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow h1,
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red h1,
