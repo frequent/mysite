@@ -1111,4 +1111,23 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2 ~ ul {
     column-count: 1;
   }
+  /* h1/h2 intro header positioning */
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1,
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1,
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1,
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1 {
+    z-index: none;
+    position: static;
+    top: 0;
+    text-align: left;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2,
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1 + h2,
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1 + h2,
+  div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-green h1 + h2 {
+    z-index: none;
+    position: static;
+    top: 0;
+    font-size: 2em;
+  }
 }
