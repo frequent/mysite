@@ -1095,6 +1095,10 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2
   text-align: center;
   margin: 0 auto;
 }
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 60%;
+}
 @media only screen and (max-width: 44em) {
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow h1,
   div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red h1,
