@@ -148,7 +148,7 @@
       child_list,
       domsugar("li", [
         domsugar("a", {
-          'href': "./" + LANG_URL[language],
+          'href': "https://svenfranck.eu/" + LANG_URL[language],
           'class': "lang-wrapper"
         }, [
           domsugar('i', {
