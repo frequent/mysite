@@ -1003,6 +1003,10 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   position: absolute;
   top: 40%;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1 {
+  right: 0;
+}
+
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2,
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-red h1 + h2,
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-blue h1 + h2,
