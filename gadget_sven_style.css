@@ -1012,6 +1012,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   top: 52%;
   font-size: 2.5em;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2 {
+  right: 0;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-yellow ~ h2 ~ ul,
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-red ~ h2 ~ ul, 
 div[data-gadget-url$="gadget_sven_style.html"] main section .banner-blue ~ h2 ~ ul, 
