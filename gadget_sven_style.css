@@ -86,12 +86,13 @@
       License - https://fontawesome.com/license 
       (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) */
 
+:root, :host {
+  --fa-style-family-brands: 'Font Awesome 6 Brands';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands'; }
+
 @font-face {
-  font-family: "Font Awesome 5 Brands";
-  src: url('font/fa-brands-400.eot');
-  src: url('font/fa-brands-400.eot?#iefix') format("embedded-opentype"),
-       url('font/fa-brands-400.woff2') format("woff2"),
-       url('font/fa-brands-400.woff') format("woff"),
+  font-family: "Font Awesome 6 Brands";
+  src: url('font/fa-brands-400.woff2') format("woff2"),
        url('font/fa-brands-400.ttf') format("truetype");
   font-style: normal;
   font-weight: normal;
@@ -107,22 +108,22 @@
   line-height:1
 }
 .fab {
-  font-family:"Font Awesome 5 Brands"
+  font-family:"Font Awesome 6 Brands"
 }
-.fa-facebook:before{
-  content:"\f09a"
+.fa-bluesky:before {
+  content: "\e671"; 
 }
-.fa-facebook-f:before{
-  content:"\f39e"
+.fa-square-facebook:before {
+  content: "\f082"; 
 }
-.fa-twitter:before{
-    content:"\f099"
+.fa-facebook:before {
+  content: "\f09a"; 
 }
-.fa-twitter-square:before{
-    content:"\f081"
+.fa-x-twitter:before {
+  content: "\e61b"; 
 }
 .fa-linkedin:before{
-    content:"\f0e1"
+    content: "\f0e1";
 }
 .fa-linkedin-square:before{
     content:"\f08c"
