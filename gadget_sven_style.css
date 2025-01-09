@@ -755,6 +755,7 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight .float {
 }
 div[data-gadget-url$="gadget_sven_style.html"] main a {
   color: #502379;
+  font-weight: bold;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main a:hover {
   color: #1BBE6F;
@@ -838,7 +839,8 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner h1 ~ figure 
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q {
   margin: 2em 0 0 0;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  line-height: 1.4em;
   display: inline-block;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q {
