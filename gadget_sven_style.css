@@ -732,6 +732,7 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figure img 
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figcaption {
   text-align: center;
+  margin-bottom: 1em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight .float {
   float: right;
