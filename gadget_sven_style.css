@@ -709,6 +709,7 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img {
   object-fit: cover;
   box-shadow: 5px 5px #502379;
 }
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li picture + h2,
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2,
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 {
   background-color: #502379;
