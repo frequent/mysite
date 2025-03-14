@@ -1154,12 +1154,12 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2
 }
 
 /* cosmetic modifs */
-div[data-gadget-url$="gadget_sven_style.html"] figure {
+div[data-gadget-url$="gadget_sven_style.html"] h1 + figure {
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important;
 }
-div[data-gadget-url$="gadget_sven_style.html"] figure ~ * {
+div[data-gadget-url$="gadget_sven_style.html"] h1 + figure ~ * {
     max-width: 840px;
     width: 80%;
     margin-left: auto;
@@ -1176,10 +1176,10 @@ div[data-gadget-url$="gadget_sven_style.html"] .p-name::before {
   margin: .25em 0;
 }
 @media only screen and (max-width: 44em) {
-  div[data-gadget-url$="gadget_sven_style.html"] figure {
+  div[data-gadget-url$="gadget_sven_style.html"] h1 + figure {
     width: 100% !important;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] figure ~ * {
+  div[data-gadget-url$="gadget_sven_style.html"] h1 + figure ~ * {
       width: 100%;
       margin-left: 0;
       margin-right: 0;
