@@ -9,11 +9,15 @@
     OPEN = "open",
     CLOSE = "close",
     SCM_ITEM_LIST = ".scm-menu ul",
-    INTERSECTION_OBSERVER = window.IntersectionObserver,
     LANG_URL = {
       "en": "en/languages.html",
       "fr": "langues.html",
       "de": "de/sprachen.html"
+    },
+    LANG_TERM = {
+        "en": "Languages",
+        "fr": "Langues",
+        "de": "Sprachen"
     };
 
   function promiseEventListener(target, type, useCapture) {
@@ -39,26 +43,6 @@
       target.addEventListener(type, handle_event_callback, useCapture);
     }
     return new RSVP.Promise(resolver, canceller);
-  }
-
-  function observeImage(state, image_list) {
-    if (!state.observer) {
-      return;
-    }
-    image_list.forEach(function (image) {
-      state.observer.observe(image);
-    });
-  }
-
-  function loadImage(entries, observer) {
-    entries.forEach(function (entry) {
-      var img = entry.target;
-      if (img.classList.contains("lazy")) {
-        img.classList.remove("lazy");
-        //img.setAttribute("src", img.getAttribute("data-src"));
-        observer.unobserve(img);
-      }
-    });
   }
 
   function jio_ajax(param) {
@@ -156,7 +140,7 @@
           }),
           domsugar('span', {
             'class': "navbar-language",
-            'text': "Langues"
+            'text': LANG_TERM[language]
           })
         ])
       ])
@@ -178,9 +162,6 @@
           base_url: parsed_content.sitemap.href,
           current_language: parsed_content.language
         };
-      if (INTERSECTION_OBSERVER !== undefined) {
-        state.observer = new INTERSECTION_OBSERVER(loadImage, {"threshold": 0.5});
-      }
       return gadget.changeState(state);
     })
 
@@ -279,7 +260,6 @@
           input = div.querySelector('div.input');
           if (input) {
             html_content = input.firstChild;
-            observeImage(gadget.state, html_content.querySelectorAll("img"));
             domsugar(gadget.element.querySelector('main'), [
               domsugar("section", {
                 "class": "sec-layout-highlight",

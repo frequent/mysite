@@ -140,7 +140,12 @@
 .fa-youtube:before {
     content: "\f167";
 }
-
+.fa-mastodon:before {
+    content: "\f4f6";
+}
+.fa-threads:before {
+    content: "\e618";
+}
 
 html,
 body {
@@ -266,7 +271,7 @@ div[data-gadget-url$="gadget_sven_style.html"] header nav ul li {
 }
 div[data-gadget-url$="gadget_sven_style.html"] header nav ul li:hover a,
 div[data-gadget-url$="gadget_sven_style.html"] header section ul li:hover a {
-  background-color: #606161;
+  background-color: #1BBE6F;
   color: #ffffff;
 }
 div[data-gadget-url$="gadget_sven_style.html"] header nav ul li a {
@@ -284,6 +289,12 @@ div[data-gadget-url$="gadget_sven_style.html"] header .lang-wrapper {
 }
 div[data-gadget-url$="gadget_sven_style.html"] header nav {
   padding-top: .5em;
+}
+/* not a fan to intro another width */
+@media screen and (max-width:80em) {
+  div[data-gadget-url$="gadget_sven_style.html"] header nav {
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width:44em) {
   div[data-gadget-url$="gadget_sven_style.html"] header nav {
@@ -477,11 +488,15 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section h3 {
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > h2 {
   background-color: rgb(249 243 255);
-  padding: 1em 4em 0;
+  padding: 1em 3em 0;
   margin: 2em 0 0 0;
+  color: #502379;
+  font-weight: bold;
+  font-size: 2em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section h3 {
   color: #502379;
+  font-size: 1.25em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section ul {
   width: 100%;
@@ -504,7 +519,9 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > ul {
 div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li {
   padding: 1em;
 }
-div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a {
+/* this one */
+div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a[role="button"],
+div[data-gadget-url$="gadget_sven_style.html"] footer section div > ul:last-of-type li a[role="button"] {
   background-color: #502379;
   color: #ffffff;
   padding: .75em 1em;
@@ -513,7 +530,8 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a {
   font-size: 1.25em;
   box-shadow: 5px 5px #1BBE6F;
 }
-div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a:hover {
+div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a[role="button"]:hover,
+div[data-gadget-url$="gadget_sven_style.html"] footer section div > ul:last-of-type li a[role="button"]:hover {
   background-color: #1BBE6F;
   box-shadow: 5px 5px #502379;
 }
@@ -560,7 +578,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
   background: #ffffff;
   padding: 3em 8em 3em;
   text-align: center;
-  align-items: center;
+  align-items: start;
   justify-content: center;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type ul {
@@ -570,6 +588,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type ul li {
   display: block;
   text-align: left;
+  font-size: 1.25em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type ul li h3 {
   margin-bottom: .5em;
@@ -580,6 +599,15 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
 div[data-gadget-url$="gadget_sven_style.html"] footer svg {
   width: 13em;
   height: auto;
+  margin: 2em 0;
+}
+div[data-gadget-url$="gadget_sven_style.html"] footer h3 svg {
+  fill: #502379;
+  height: 17px;
+  width: 17px;
+  display: inline-block;
+  margin: 0;
+  padding-top: 3px;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type h3 + a {
   color: #502379;
@@ -590,11 +618,12 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of
   font-weight: bold;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div > ul:last-of-type h3 + a:hover {
-  background: #606161;
+  background: #1BBE6F;
   color: #ffffff;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div p {
   padding: 1em;
+  text-align: center;
 }
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul ~ p {
   background-image: url(img/FR-Graphic-hero-background-rainbow.webp);
@@ -602,20 +631,13 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul ~ p {
 div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
   color: #ffffff;  
 }
-@media only screen and (max-width: 44em) {
+@media only screen and (max-width: 80em) {
   div[data-gadget-url$="gadget_sven_style.html"] footer section > div ul ~ p {
     background-image: url(img/FR-Graphic-hero-background-rainbow-1280.webp);
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section ul {
     width: 100%;
     display: block;
-  }
-  div[data-gadget-url$="gadget_sven_style.html"] footer section > ul {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  div[data-gadget-url$="gadget_sven_style.html"] footer section > h2 {
-    padding: 1em 1em 0;
   }
   div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li {
     display: block;
@@ -625,7 +647,16 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
     display: inline;
     padding: 0 1em;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a {
+}
+@media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > ul {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > h2 {
+    padding: 1em 1em 0;
+  }
+  div[data-gadget-url$="gadget_sven_style.html"] footer section > ul li a[role="button"] {
     display: block;
     width: 100%;
     text-align: center;
@@ -648,6 +679,7 @@ div[data-gadget-url$="gadget_sven_style.html"] footer section > div p a {
     text-align: center;
   }
 }
+/* newsletter subscription */
 div[data-gadget-url$="gadget_sven_style.html"] form input {
   font-family: 'Ubuntu';
   font-size: 1.1em;
@@ -666,7 +698,7 @@ div[data-gadget-url$="gadget_sven_style.html"] form button {
   font-weight: bold;
   font-size: 1.25em;
   border: 0 none;
-  padding: .25em .5em;
+  padding: .75em 1em;
   margin-top: .25em;
   box-shadow: 5px 5px #ffffff;
   pointer: cursor;
@@ -676,6 +708,8 @@ div[data-gadget-url$="gadget_sven_style.html"] form button:hover {
   color: #502379;
   box-shadow: 5px 5px #1BBE6F;
 }
+
+
 /** ******************* Content Style ******************* **/
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 {
   font-size: 4em;
@@ -694,13 +728,20 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  column-count: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+@media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul {
+    display: block;
+  }
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li {
   padding: 1em;
   margin-bottom: 1em;
   padding-bottom: 0;
-  break-inside: avoid-column;
+  /* break-inside: avoid-column; */
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img {
   margin-bottom: 1em;
@@ -710,17 +751,26 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img {
   box-shadow: 5px 5px #502379;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li picture + h2,
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li picture + h3,
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2,
-div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 {
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3,
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li picture + h3 {
   background-color: #502379;
   color: #ffffff;
   display: inline;
   padding: .15em 0 .15em 0;
 }
-div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 {
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3,
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li picture + h3 {
   box-shadow: unset;
-  margin-bottom: .25em;
-  display: inline-block;
+  display: inline;
+  font-size: 1.5em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h3 + p i,
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li picture + h3 + p i{
+  display: block;
+  margin-top: .5em;
+  margin-bottom: -1em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight ul li img + h2 + p {
   margin-top: .5em;
@@ -736,7 +786,7 @@ div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight figcaption 
   margin-bottom: 1em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight .float {
-  float: right;
+  float: left;
   padding: 2em;
   width: 50%;
 }
@@ -786,14 +836,52 @@ div[data-gadget-url$="gadget_sven_style.html"] main a[role=button]:hover {
     max-width: unset;
   }
 }
+/* content radio filters */
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #all:checked ~ ul > li {
+  display: block;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #article:checked ~ ul > li:not(.article),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #interview:checked ~ ul > li:not(.interview),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #podcast:checked ~ ul > li:not(.podcast),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #opinion:checked ~ ul > li:not(.opinion),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #reform:checked ~ ul > li:not(.reform),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #democracy:checked ~ ul > li:not(.democracy),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #economy:checked ~ ul > li:not(.economy),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #schengen:checked ~ ul > li:not(.schengen),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #foreign-policy:checked ~ ul > li:not(.foreign-policy),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #defense:checked ~ ul > li:not(.defense),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #bureaucracy:checked ~ ul > li:not(.bureaucracy),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #consumer-protection:checked ~ ul > li:not(.consumer-protection),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight #immigration:checked ~ ul > li:not(.immigration),
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 ~ input{
+  display: none;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 ~ label {
+  background-color: #502379;
+  color: #ffffff;
+  padding: .75em 1em;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.25em;
+  margin-bottom: .5em;
+  display: inline-block;
+  cursor: pointer;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 ~ label:last-of-type {
+  margin-bottom: 2em;
+}
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 ~ label:hover,
+div[data-gadget-url$="gadget_sven_style.html"] .sec-layout-highlight h1 ~ input:checked + label {
+  background-color: #1BBE6F;
+}
+
 /** ******************* Banner Style ******************* **/
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner {
   position: relative;
   pointer-events: none;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1,
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2,
-div[data-gadget-url$="gadget_sven_style.html"] main section h3 {
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h2 {
   color: #ffffff;
   background-color: #502379;
   display: table;
@@ -839,25 +927,47 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner h1 ~ figure 
     font-size: 1.5em;
   }
 }
-div[data-gadget-url$="gadget_sven_style.html"] main p q {
+div[data-gadget-url$="gadget_sven_style.html"] main p q,
+div[data-gadget-url$="gadget_sven_style.html"] main li q, {
   margin: 2em 0 0 0;
   font-size: 1.1em;
   line-height: 1.25em;
   display: inline-block;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q {
-  margin: -1em 4em 2em;
+div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q,
+div[data-gadget-url$="gadget_sven_style.html"] main .banner + li q {
+  margin: -4em 4em 2em;
   display: block;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main p q + span {
+/* uh, bad, front page bottom quote */
+div[data-gadget-url$="gadget_sven_style.html"] main br + p q {
+  margin: 0 4em 2em;
+  display: block;
+}
+/* worse, only on jumpstart */
+div[data-gadget-url$="gadget_sven_style.html"] main br + picture img {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+@media only screen and (max-width: 44em) {
+  div[data-gadget-url$="gadget_sven_style.html"] main br + picture img {
+    max-width: 90%;
+  }
+}
+div[data-gadget-url$="gadget_sven_style.html"] main p q + span,
+div[data-gadget-url$="gadget_sven_style.html"] main li q + span {
   padding-left: 2em;
   padding-right: 2em;
   display: block;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main p q:after {
+div[data-gadget-url$="gadget_sven_style.html"] main p q:after,
+div[data-gadget-url$="gadget_sven_style.html"] main li q:after{
   padding-left: .25em;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main p q:before {
+div[data-gadget-url$="gadget_sven_style.html"] main p q:before,
+div[data-gadget-url$="gadget_sven_style.html"] main li q:before{
   padding-right: .25em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(1) {
@@ -871,7 +981,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(
 div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(5) h3 ~ a {
   background-color: #FDC220;
 }
-div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(2) h3 ~ a:hover
+div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(2) h3 ~ a:hover,
 div[data-gadget-url$="gadget_sven_style.html"] main section section:nth-of-type(5) h3 ~ a:hover {
   box-shadow: 5px 5px #FDC220;
 }
@@ -918,6 +1028,10 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section h3 {
   top: 1em;
   left: .5em;
   z-index: 10;
+  color: #ffffff;
+  background-color: #502379;
+  display: table;
+  padding: 0.15em 0.35em;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section h3 ~ a[role="button"] {
   display: inline;
@@ -945,6 +1059,11 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section div a[role="
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section div a svg {
   padding: 2px 0 0 0;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section p b svg {
+  fill: #000000;
+  line-height: 1.25em;
+  vertical-align: text-bottom;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main section section {
   display: flex;
@@ -978,13 +1097,20 @@ div[data-gadget-url$="gadget_sven_style.html"] main section section div {
     position: static;
     display: block;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q {
+  div[data-gadget-url$="gadget_sven_style.html"] main .banner + p q,
+  div[data-gadget-url$="gadget_sven_style.html"] main .banner + li q{
     margin: 1em 0;
   }
-  div[data-gadget-url$="gadget_sven_style.html"] main p q {
+  div[data-gadget-url$="gadget_sven_style.html"] main p q,
+  div[data-gadget-url$="gadget_sven_style.html"] main li q{
    margin: 3em 0 .5em;
    text-align: left;
   }
+}
+div[data-gadget-url$="gadget_sven_style.html"] main section ol li {
+  line-height: 24px;
+  font-size: 18px;
+  margin: 1em 0;
 }
 
 /*=== header theming === */
@@ -1009,7 +1135,7 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   top: 40%;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner h1 {
-  right: 0;
+  left: 0;
 }
 
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2,
@@ -1089,19 +1215,6 @@ div[data-gadget-url$="gadget_sven_style.html"] main section .banner-green ~ h2 ~
   margin-bottom: 0.5em
 }
 
-/* overrides 
-div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight ~ h2 {
-  box-shadow: 5px 5px #1BBE6F;
-}
-div[data-gadget-url$="gadget_sven_style.html"] main section .banner ~ h2
-  color: #ffffff;
-  background-color: #502379;
-  display: table;
-  padding: 0.15em 0.35em;
-  font-size: 2.5em;
-}
-*/
-
 /* video embedding */
 .iframe-wrapper {
   text-align: center;
@@ -1159,12 +1272,14 @@ div[data-gadget-url$="gadget_sven_style.html"] h1 + figure {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+/* I wonder where this breaks 
 div[data-gadget-url$="gadget_sven_style.html"] h1 + figure ~ * {
     max-width: 840px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+*/
 div[data-gadget-url$="gadget_sven_style.html"] .p-name::before {
     content: "";
     display: block;
