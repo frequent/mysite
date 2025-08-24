@@ -955,6 +955,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main br + picture img {
   div[data-gadget-url$="gadget_sven_style.html"] main br + picture img {
     max-width: 90%;
   }
+  div[data-gadget-url$="gadget_sven_style.html"] main br + p q {
+    margin: 0 0 2em;
+  }
 }
 div[data-gadget-url$="gadget_sven_style.html"] main p q + span,
 div[data-gadget-url$="gadget_sven_style.html"] main li q + span {
