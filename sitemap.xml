@@ -1,42 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://svenfranck.eu/</loc>
     <lastmod>2025-08-22T22:08:26+00:00</lastmod>
     <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
-               hreflang="de"
-               href="https://svenfranck.eu/de/"/>
+               hreflang="en"
+               href="https://svenfranck.eu/en/"/>
     <xhtml:link
                rel="alternate"
-               hreflang="en"
+               hreflang="de"
                href="https://svenfranck.eu/de/"/>
     <xhtml:link
                rel="alternate"
                hreflang="fr"
                href="https://svenfranck.eu/"/>
-  </url>
-  <url>
-    <loc>https://svenfranck.eu/index.html</loc>
-    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
-    <priority>1.00</priority>
-    <xhtml:link
-               rel="alternate"
-               hreflang="de"
-               href="https://svenfranck.eu/de/index.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="en"
-               href="https://svenfranck.eu/de/index.html"/>
-    <xhtml:link
-               rel="alternate"
-               hreflang="fr"
-               href="https://svenfranck.eu/index.html"/>
+    <xhtml:link 
+              rel="alternate" 
+              hreflang="x-default" 
+              href="https://svenfranck.eu/en/"/>
   </url>
   <url>
     <loc>https://svenfranck.eu/apropos.html</loc>
