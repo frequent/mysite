@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://svenfranck.eu/</loc>
-    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <lastmod>2025-08-31T14:14:12+00:00</lastmod>
     <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
@@ -41,7 +41,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/blog.html</loc>
-    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <lastmod>2025-08-31T14:11:12+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -667,6 +667,108 @@
                rel="alternate"
                hreflang="fr"
                href="https://svenfranck.eu/blog/Chat-Control-la-fin-du-secret-de-la-correspondence.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/blog/Une-Europe-des-nations-Non-merci.html</loc>
+    <lastmod>2025-08-31T14:24:28+00:00</lastmod>
+    <priority>0.64</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/Ein-Europa-der-Nationen-Nein-danke.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/A-Europe-of-Nations-No-thanks.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/blog/Une-Europe-des-nations-Non-merci.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/sujets.html</loc>
+    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <priority>0.64</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/themen.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/topics.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/sujets.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/sujets/Une-politique-etrangere-europeenne.html</loc>
+    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/themen/Eine-Europaeische-Aussenpolitik.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/topics/A-European-foreign-policy.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/sujets/Une-politique-etrangere-europeenne.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/sujets/Le-droit-de-vote-pour-les-citoyens-de-l-UE-mobiles.html</loc>
+    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/themen/Wahlrecht-fuer-mobile-EU-Buerger.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/topics/Voting-rights-for-mobile-EU-citizens.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/sujets/Le-droit-de-vote-pour-les-citoyens-de-l-UE-mobiles.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/sujets/La-protection-contre-les-ecroqueries-en-ligne.html</loc>
+    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/themen/Verbraucherschutz-gegen-Online-Betrug.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/topics/Consumer-protection-against-online-scams.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/sujets/La-protection-contre-les-ecroqueries-en-ligne.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/sujets/Un-small-business-act-europeen.html</loc>
+    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/themen/Ein-Small-Business-Act-fuer-Europa.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/topics/A-small-business-act-for-Europe.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/sujets/Un-small-business-act-europeen.html"/>
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/jumpstartEU.html</loc>
