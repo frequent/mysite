@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://svenfranck.eu/</loc>
-    <lastmod>2025-09-21T10:07:12+00:00</lastmod>
+    <lastmod>2025-10-05T14:44:12+00:00</lastmod>
     <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
@@ -41,7 +41,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/blog.html</loc>
-    <lastmod>2025-09-21T10:07:12+00:00</lastmod>
+    <lastmod>2025-10-05T14:44:12+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -720,6 +720,23 @@
                href="https://svenfranck.eu/blog/Jour-de-la-marmotte-europeen-Allons-nous-jamais-nous-reveiller.html"/>
   </url>
   <url>
+    <loc>https://svenfranck.eu/blog/Democratie-Europeenne-Comment-la-faire.html</loc>
+    <lastmod>2025-10-05T14:44:12+00:00</lastmod>
+    <priority>0.64</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/blog/Europaeische-Demokratie-Wie-soll-das-funktionieren.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/blog/European-democracy-How-is-that-gonna-work.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/blog/Democratie-Europeenne-Comment-la-faire.html"/>
+  </url>
+  <url>
     <loc>https://svenfranck.eu/sujets.html</loc>
     <lastmod>2025-08-22T22:08:26+00:00</lastmod>
     <priority>0.64</priority>
@@ -806,7 +823,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/jumpstartEU.html</loc>
-    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <lastmod>2025-10-05T14:44:12+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
