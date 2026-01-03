@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://svenfranck.eu/</loc>
-    <lastmod>2025-12-29T15:12:11+00:00</lastmod>
+    <lastmod>2026-01-03T16:01:23+00:00</lastmod>
     <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
@@ -41,7 +41,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/blog.html</loc>
-    <lastmod>2025-12-29T15:12:11+00:00</lastmod>
+    <lastmod>2026-01-03T16:01:23+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -822,6 +822,23 @@
                href="https://svenfranck.eu/blog/Avoirs-geles-de-moscou-avec-amour.html"/>
   </url>
   <url>
+    <loc>https://svenfranck.eu/blog/First-we-take-Maduro-then-we-take-Greenland.html</loc>
+    <lastmod>2026-01-03T16:01:23+00:00</lastmod>
+    <priority>0.64</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/blog/First-we-take-Maduro-then-we-take-Greenland.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/blog/First-we-take-Maduro-then-we-take-Greenland.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/blog/First-we-take-Maduro-then-we-take-Greenland.html"/>
+  </url>
+  <url>
     <loc>https://svenfranck.eu/sujets.html</loc>
     <lastmod>2025-08-22T22:08:26+00:00</lastmod>
     <priority>0.64</priority>
@@ -840,7 +857,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/sujets/Une-politique-etrangere-europeenne.html</loc>
-    <lastmod>2025-12-17T09:13:08+00:00</lastmod>
+    <lastmod>2026-01-03T16:01:23+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
@@ -908,7 +925,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/jumpstartEU.html</loc>
-    <lastmod>2025-12-29T15:12:11+00:00</lastmod>
+    <lastmod>2026-01-03T16:01:23+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
