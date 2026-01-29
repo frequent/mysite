@@ -14,11 +14,27 @@
     to find ways to relaunch the European project.
   </description>
   <language>en</language>
-  <lastBuildDate>Sat, 10 Jan 2026 20:47:33 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Jan 2026 22:10:12 +0100</lastBuildDate>
   <sy:updatePeriod>weekly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
   <generator>Handcrafted</generator>
 
+  <item>
+    <title>Can the Franco-German couple still lead the European project?</title>
+    <link>https://svenfranck.eu/en/blog/Can-the-Franco-German-couple-still-lead-the-European-project.html</link>
+    <guid isPermaLink="true">https://svenfranck.eu/en/blog/Can-the-Franco-German-couple-still-lead-the-European-project.html</guid>
+    <pubDate>Wed, 28 Jan 2026 22:10:12 +0100</pubDate>
+    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
+    <category><![CDATA[reform]]></category>
+    <description><![CDATA[
+      <p>
+        France and Germany, the two motors of the European project, find themselves at a 
+        crossroads: real European integration could be a remedy against the far right at 
+        home and the threats posed by Putin and Trump. But a stronger Europe would also 
+        mean for France and Germany to take a step back. Why should they?
+      </p>
+    ]]></description>
+  </item>
   <item>
     <title>If Germany can live with Eurobonds, Denmark can pave the way for EU military</title>
     <link>https://svenfranck.eu/en/blog/If-Germany-can-live-with-Eurobonds-Denmark-can-pave-the-way-for-EU-military.html</link>
@@ -328,22 +344,5 @@
       </p>
     ]]></description>
   </item>
-  <item>
-    <title>The case for an EU Foreign Policy Trilogue</title>
-    <link>https://svenfranck.eu/en/blog/The-case-for-an-EU-Foreign-Policy-Trilogue.html</link>
-    <guid isPermaLink="true">https://svenfranck.eu/en/blog/The-case-for-an-EU-Foreign-Policy-Trilogue.html</guid>
-    <pubDate>Tue, 17 Jun 2025 22:08:26 +0200</pubDate>
-    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
-    <category><![CDATA[foreign-policy]]></category>
-    <description><![CDATA[
-      <p>
-        I recently watched Jeffrey Sachs speaking in the EU Parliament and
-        I can only echo the criticism towards the European Union lacking 
-        a proper foreign policy.
-      </p>
-    ]]></description>
-  </item>
-
-
 </channel>
 </rss>
