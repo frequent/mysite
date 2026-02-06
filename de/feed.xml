@@ -19,6 +19,26 @@
   <generator>Handcrafted</generator>
 
   <item>
+    <title>In Vielfalt vereint bedeutet dass open-source Mainstream werden muss</title>
+    <link>https://svenfranck.eu/de/blog/In-Vielfalt-geeint-bedeuted-dass-open-source-mainstream-werden-muss.html</link>
+    <guid isPermaLink="true">https://svenfranck.eu/de/blog/In-Vielfalt-geeint-bedeuted-dass-open-source-mainstream-werden-muss.html</guid>
+    <pubDate>Fri, 06 Feb 2026 10:27:33 +0100</pubDate>
+    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
+    <category><![CDATA[reform]]></category>
+    <category><![CDATA[democracy]]></category>
+    <description><![CDATA[
+      <p>
+        Abseits des Rampenlichts hat letztes Wochenende die FOSDEM in Brüssel 
+        stattgefunden, die weltweit größte Open-Source-Konferenz. Und während 
+        ich versuchte, unsere Volt-Europaabgeordneten als Redner für die 
+        EU-Policy-Sessions im nächsten Jahr vorzuschlagen, kündigten die 
+        Organisatoren der Konferenz in ihrer Abschluss-Sessions an, dass Politik 
+        auf FOSDEM nächstes Jahr eine wichtigere Rolle spielen soll. Perfekt, 
+        denn es ist höchste Zeit, dass Europa open-source zur Norm macht.
+      </p>
+    ]]></description>
+  </item>
+  <item>
     <title>Kann das deutsch-franzöische Tandem weiter den europäischen Integrationsprozess anführen?</title>
     <link>https://svenfranck.eu/de/blog/Kann-das-deutsch-franzoesische-Tandem-noch-den-europaeischen-Integrationsprozess-anfuehren.html</link>
     <guid isPermaLink="true">https://svenfranck.eu/de/blog/Kann-das-deutsch-franzoesische-Tandem-noch-den-europaeischen-Integrationsprozess-anfuehren.html</guid>
@@ -328,24 +348,5 @@
       </p>
     ]]></description>
   </item>
-  <item>
-    <title>5% für die NATO</title>
-    <link>https://svenfranck.eu/de/blog/5-Prozent-fuer-die-NATO.html</link>
-    <guid isPermaLink="true">https://svenfranck.eu/de/blog/5-Prozent-fuer-die-NATO.html</guid>
-    <pubDate>Wed, 25 Jun 2025 22:08:26 +0200</pubDate>
-    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
-    <category><![CDATA[foreign-policy]]></category>
-    <category><![CDATA[defense]]></category>
-    <description><![CDATA[
-      <p>
-        Es it NATO Gipfel und Mark Rutte hat schon das Ergebnis vor jeder 
-        Diskussion in einer poetischen Nachricht beschlossen: Wir geben ab 
-        jetzt 5% vom BIP für Verteidigung aus - erheblich mehr als die 2% 
-        pro Jahr, zu denen sich NATO Mitglieder verpflichtet haben.
-      </p>
-    ]]></description>
-  </item>
-
-
 </channel>
 </rss>
