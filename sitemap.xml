@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://svenfranck.eu/</loc>
-    <lastmod>2026-02-06T10:27:33+00:00</lastmod>
+    <lastmod>2026-02-11T14:01:11+00:00</lastmod>
     <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
@@ -41,7 +41,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/blog.html</loc>
-    <lastmod>2026-02-06T10:27:33+00:00</lastmod>
+    <lastmod>2026-02-11T14:01:11+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -890,6 +890,23 @@
                href="https://svenfranck.eu/blog/Unis-dans-la diversite-implique-de-faire-de-l-open-source-la-norme.html"/>
   </url>
   <url>
+    <loc>https://svenfranck.eu/blog/Le-Conseil-europeen-devrait-s-appeler-Conseil-national.html</loc>
+    <lastmod>2026-02-11T14:01:11+00:00</lastmod>
+    <priority>0.64</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/blog/Der-Europaeische-Rat-sollte-Nationalrat-heissen.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/blog/The-EU-Council-should-be-called-National-Council.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/blog/Le-Conseil-europeen-devrait-s-appeler-Conseil-national.html"/>
+  </url>
+  <url>
     <loc>https://svenfranck.eu/sujets.html</loc>
     <lastmod>2025-08-22T22:08:26+00:00</lastmod>
     <priority>0.64</priority>
@@ -976,7 +993,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/jumpstartEU.html</loc>
-    <lastmod>2026-01-28T22:10:12+00:00</lastmod>
+    <lastmod>2026-02-11T14:01:11+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
