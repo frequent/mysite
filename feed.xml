@@ -14,11 +14,32 @@
     projet européen.
   </description>
   <language>fr</language>
-  <lastBuildDate>Wed, 25 Feb 2026 14:02:18 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Mar 2026 22:21:17 +0000</lastBuildDate>
   <sy:updatePeriod>weekly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
   <generator>Handcrafted</generator>
 
+  <item>
+    <title>Qui a peur du grand méchant loup ?</title>
+    <link>https://svenfranck.eu/blog/Qui-a-peur-du-grand-mechant-loup.html</link>
+    <guid isPermaLink="true">https://svenfranck.eu/blog/Qui-a-peur-du-grand-mechant-loup.html</guid>
+    <pubDate>Fri, 06 Mar 2026 22:21:17 +0000</pubDate>
+    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
+    <category><![CDATA[foreign-policy]]></category>
+    <description><![CDATA[
+      <p>
+        Cette semaine, le chancelier allemand Friedrich Merz a rendu visite au 
+        président des États-Unis. Avant, il avait condamné les attaques iraniennes 
+        avec Keir Starmer et Emmanuel Macron, sans remettre en question la justification 
+        des États-Unis et d’Israël pour mettre une nouvelle fois le feu au Moyen-Orient. 
+        Il s’est également rangé aux côtés de Donald Trump pour critiquer le Premier 
+        ministre espagnol Pedro Sánchez – le seul dirigeant européen à avoir pris 
+        position. Depuis, il a fait marche arrière, mais je ne vois pas de véritable 
+        stratégie sauf s'il envisage peut-être que l’Allemagne devienne le 51ᵉ État des 
+        États-Unis.
+      </p>
+    ]]></description>
+  </item>
   <item>
     <title>Le Conseil européen devrait s’appeler Conseil national</title>
     <link>https://svenfranck.eu/blog/Les-medias-européens-sont-accro-a-la-politique-americaine-comme-nous-le-sommes-aux-reseaux-sociaux.html</link>
@@ -339,24 +360,6 @@
         du nouveau budget européen (le MFF), qui sera négocié au cours des 24 prochains 
         mois. Il s'élève à 1 984 milliards d’euros, soit 1,26 % du revenu national brut. 
         En réalité, cela devrait être bien plus.
-      </p>
-    ]]></description>
-  </item>
-  <item>
-    <title>Innovation ou bureaucratie ?</title>
-    <link>https://svenfranck.eu/blog/Innovation-ou-bureaucratie.html</link>
-    <guid isPermaLink="true">https://svenfranck.eu/blog/Innovation-ou-bureaucratie.html</guid>
-    <pubDate>Sat, 12 Jul 2025 22:08:26 +0200</pubDate>
-    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
-    <category><![CDATA[economy]]></category>
-    <category><![CDATA[bureaucracy]]></category>
-    <description><![CDATA[
-      <p>
-        Il y a quelques mois, j'ai soumis un projet au Fonds européen de la défense. 
-        Notre consortium composé de PME a obtenu une excellente note à l'évaluation 
-        pour son caractère innovant. Mais comme seulement un projet soit financé et 
-        que nous n'étions pas le meilleur projet, le nôtre a été jugé éligible mais 
-        se trouve sans financement.
       </p>
     ]]></description>
   </item>

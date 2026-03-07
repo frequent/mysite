@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://svenfranck.eu/</loc>
-    <lastmod>2026-02-25T14:02:18+00:00</lastmod>
+    <lastmod>2026-03-06T22:21:17+00:00</lastmod>
     <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
@@ -41,7 +41,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/blog.html</loc>
-    <lastmod>2026-02-25T14:02:18+00:00</lastmod>
+    <lastmod>2026-03-06T22:21:17+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -924,6 +924,23 @@
                href="https://svenfranck.eu/blog/Les-medias-européens-sont-accro-a-la-politique-americaine-comme-nous-le-sommes-aux-reseaux-sociaux.html"/>
   </url>
   <url>
+    <loc>https://svenfranck.eu/blog/Qui-a-peur-du-grand-mechant-loup.html</loc>
+    <lastmod>2026-03-06T22:21:17+00:00</lastmod>
+    <priority>0.64</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/blog/Wer-hat-Angst-vor-dem-boesen-Wolf.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/blog/Who-is-afraid-of-the-big-bad-wolf.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/blog/Qui-a-peur-du-grand-mechant-loup.html"/>
+  </url>
+  <url>
     <loc>https://svenfranck.eu/sujets.html</loc>
     <lastmod>2025-08-22T22:08:26+00:00</lastmod>
     <priority>0.64</priority>
@@ -942,7 +959,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/sujets/Une-politique-etrangere-europeenne.html</loc>
-    <lastmod>2026-01-05T16:43:47+00:00</lastmod>
+    <lastmod>2026-03-06T22:21:17+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
@@ -1010,7 +1027,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/jumpstartEU.html</loc>
-    <lastmod>2026-02-25T14:02:18+00:00</lastmod>
+    <lastmod>2026-03-06T22:21:17+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
