@@ -13,11 +13,33 @@
     und jumpstartEU – eine Initiative, um das europäische Projekt neu zu starten.
   </description>
   <language>de</language>
-  <lastBuildDate>Wed, 25 Feb 2026 14:02:18 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Mar 2026 22:21:17 +0000</lastBuildDate>
   <sy:updatePeriod>weekly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
   <generator>Handcrafted</generator>
 
+  <item>
+    <title>Wer hat Angst vor dem bösen Wolf?</title>
+    <link>https://svenfranck.eu/de/blog/Wer-hat-Angst-vor-dem-boesen-Wolf.html</link>
+    <guid isPermaLink="true">https://svenfranck.eu/de/blog/Wer-hat-Angst-vor-dem-boesen-Wolf.html</guid>
+    <pubDate>Wed, 25 Feb 2026 14:02:18 +0000</pubDate>
+    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
+    <category><![CDATA[reform]]></category>
+    <description><![CDATA[
+      <p>
+        Diese Woche besuchte Friedrich Merz den Präsidenten der Vereinigten Staaten. 
+        Zuvor hatte er gemeinsam mit Keir Starmer und Emmanuel Macron die iranischen 
+        Angriffe auf Nachbarländer verurteilt, ohne ein Fragezeichen hinter die 
+        Rechtfertigung der USA und Israels zu setzen, den Nahen Osten erneut in 
+        Brand zu setzen. Außerdem stellte er sich an die Seite von Donald Trump, 
+        um den spanischen Ministerpräsidenten Pedro Sánchez anzugreifen - den 
+        einzigen europäischen Regierungschef, der klar Stellung bezogen hat. 
+        Inzwischen ist er zwar etwas zurückgerudert, aber ich erkenne hier keine 
+        wirkliche Strategie - außer vielleicht, dass Deutschland versucht, der 
+        51. Bundesstaat der USA zu werden.
+      </p>
+    ]]></description>
+  </item>
   <item>
     <title>Europäische Medien sind so abhängig von US Politik wie wir von sozialen Netzwerken</title>
     <link>https://svenfranck.eu/de/blog/Europaeische-Medien-sind-so-abhaengig-von-US-Politik-wie-wir-von-sozialen-Netzwerken.html</link>
@@ -332,24 +354,6 @@
         das neue EU Budget (MFF) vorgestellt, dass in den nächsten 24 Monaten 
         verhandelt wird. Es geht um 1.984 Billionen € oder 1.26% vom 
         Bruttonationaleinkommen. Eigentlich müsste es um viel mehr gehen.
-      </p>
-    ]]></description>
-  </item>
-  <item>
-    <title>Innovation oder Bürokratie?</title>
-    <link>https://svenfranck.eu/de/blog/Innovation-oder-Buerokratie.html</link>
-    <guid isPermaLink="true">https://svenfranck.eu/de/blog/Innovation-oder-Buerokratie.html</guid>
-    <pubDate>Sat, 12 Jul 2025 22:08:26 +0200</pubDate>
-    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
-    <category><![CDATA[economy]]></category>
-    <category><![CDATA[bureaucracy]]></category>
-    <description><![CDATA[
-      <p>
-        Vor ein paar Monaten habe ich ein Projekt beim Europäischen Verteidigungsfonds 
-        eingereicht. Unser Konsortium aus KMUs hat die Qualitätsbewertung mit 
-        exzellenter Punktzahl für Innovation bestanden. Da aber nur ein Projekt 
-        finanziert wird und nicht das beste Projekt waren, war unser Projekt 
-        "good for funding" aber ohne Finanzierung.
       </p>
     ]]></description>
   </item>
