@@ -1150,6 +1150,16 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
   top: 52%;
   font-size: 2.5em;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .banner-flip figure picture img {
+  transform: scaleX(-1);
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom h1 {
+  top: 70%;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom h1 + h2 {
+  top: 62%;
+}
+
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2 {
   right: 0;
 }
@@ -1274,6 +1284,9 @@ div[data-gadget-url$="gadget_sven_style.html"] h1 + figure {
   text-align: center;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+div[data-gadget-url$="gadget_sven_style.html"] h1 + figure ~ h2 {
+  clear: both;
 }
 /* I wonder where this breaks 
 div[data-gadget-url$="gadget_sven_style.html"] h1 + figure ~ * {
