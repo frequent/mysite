@@ -1153,11 +1153,14 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
 div[data-gadget-url$="gadget_sven_style.html"] main .banner-flip figure picture img {
   transform: scaleX(-1);
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom {
+  pointer-events: unset;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom h1 {
-  top: 70%;
+  position: static;
 }
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom h1 + h2 {
-  top: 62%;
+  position: static;
 }
 
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2 {
