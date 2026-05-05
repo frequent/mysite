@@ -1159,8 +1159,26 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom h1 {
   position: static;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom-position h1 {
+  top: 60%;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom h1 + h2 {
   position: static;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom-position h1 + h2 {
+  top: 72%;
+}
+div[data-gadget-url$="gadget_sven_style.html"] main .columns-custom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 44em) {
+  .div[data-gadget-url$="gadget_sven_style.html"] main .columns-custom {
+    grid-template-columns: 1fr;
+  }
 }
 
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-yellow h1 + h2 {

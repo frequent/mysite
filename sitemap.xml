@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://svenfranck.eu/</loc>
-    <lastmod>2026-03-26T12:07:14+00:00</lastmod>
+    <lastmod>2026-05-05T10:00:14+00:00</lastmod>
     <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/apropos.html</loc>
-    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <lastmod>2026-05-05T10:00:14+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets.html</loc>
-    <lastmod>2025-08-22T22:08:26+00:00</lastmod>
+    <lastmod>2025-05-05T10:00:14+00:00</lastmod>
     <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -1027,7 +1027,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/jumpstartEU.html</loc>
-    <lastmod>2026-03-06T22:21:17+00:00</lastmod>
+    <lastmod>2026-05-05T10:00:14+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
@@ -1044,7 +1044,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/campagne.html</loc>
-    <lastmod>2026-03-26T12:07:14+00:00</lastmod>
+    <lastmod>2026-04-28T16:01:15+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
@@ -1058,6 +1058,57 @@
                rel="alternate"
                hreflang="fr"
                href="https://svenfranck.eu/projets/campagne.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/projets/Programme-Prototype-de-l-UE.html</loc>
+    <lastmod>2026-04-28T16:01:15+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/projekte/Programm-EU-Blaupause.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/projects/Programme-EU-blueprint.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/projets/Programme-Prototype-de-l-UE.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/projets/Campagne-transnationale-Leg1-Echauffement.html</loc>
+    <lastmod>2026-05-05T10:00:14+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/projekte/Transnationale-Kampagne-Leg1-Aufwaermen.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/projects/Transnational-Campaign-Leg1-Warmup.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/projets/Campagne-transnationale-Leg1-Echauffement.html"/>
+  </url>
+  <url>
+    <loc>https://svenfranck.eu/projets/Campagne-transnationale-Leg2-Lancement.html</loc>
+    <lastmod>2026-05-05T10:00:14+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/projekte/Transnationale-Kampagne-Leg2-Kickoff.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/projects/Transnational-Campaign-Leg2-Kickoff.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/projets/Campagne-transnationale-Leg2-Lancement.html"/>
   </url>
 </urlset>
 
