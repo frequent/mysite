@@ -13,11 +13,27 @@
     und jumpstartEU – eine Initiative, um das europäische Projekt neu zu starten.
   </description>
   <language>de</language>
-  <lastBuildDate>Fri, 06 Mar 2026 22:21:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 28 Apr 2026 16:01:15 +0000</lastBuildDate>
   <sy:updatePeriod>weekly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
   <generator>Handcrafted</generator>
 
+  <item>
+    <title>Europa: Leadership. Legitimität. Einfluss. Eine transnationale Kampagne.</title>
+    <link>https://svenfranck.eu/de/projekte/kampagne.html</link>
+    <guid isPermaLink="true">https://svenfranck.eu/de/projekte/kampagne.html</guid>
+    <pubDate>Tue, 28 Apr 2026 16:01:15 +0000</pubDate>
+    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
+    <category><![CDATA[democracy]]></category>
+    <description><![CDATA[
+      <p>
+        Die Seite für meine Kampagne um Volt Europa Co-Vorsitzender 
+        zu werden, den Versuch einer transnationalen Kampagne und 
+        meiner Idee, Volt zu einer Plattform für europäische Leadership, 
+        Legitimität und Einfluß zu machen.
+      </p>
+    ]]></description>
+  </item>
   <item>
     <title>Wer hat Angst vor dem bösen Wolf?</title>
     <link>https://svenfranck.eu/de/blog/Wer-hat-Angst-vor-dem-boesen-Wolf.html</link>
@@ -338,22 +354,6 @@
         Egal wie eine zukünftige Europäische Union aussehen soll, jede Änderung 
         der Verträge erfordert Einstimmigkeit. Warum nicht wie in Software einen 
         Fork der EU für Verhandlungsspielraum nutzen?
-      </p>
-    ]]></description>
-  </item>
-  <item>
-    <title>EU Budget: Pfennigfuchsen statt großer Sprünge?</title>
-    <link>https://svenfranck.eu/de/blog/EU-Budget-Pfennigfuchsen-statt-grosser-Spruenge.html</link>
-    <guid isPermaLink="true">https://svenfranck.eu/de/blog/EU-Budget-Pfennigfuchsen-statt-grosser-Spruenge.html</guid>
-    <pubDate>Thu, 17 Jul 2025 22:08:26 +0200</pubDate>
-    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
-    <category><![CDATA[budget]]></category>
-    <description><![CDATA[
-      <p>
-        Gestern hat Kommissionspräsidentin Ursula von der Leyen den Rahmen für 
-        das neue EU Budget (MFF) vorgestellt, dass in den nächsten 24 Monaten 
-        verhandelt wird. Es geht um 1.984 Billionen € oder 1.26% vom 
-        Bruttonationaleinkommen. Eigentlich müsste es um viel mehr gehen.
       </p>
     ]]></description>
   </item>

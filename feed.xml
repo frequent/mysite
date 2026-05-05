@@ -14,11 +14,27 @@
     projet européen.
   </description>
   <language>fr</language>
-  <lastBuildDate>Fri, 06 Mar 2026 22:21:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 28 Apr 2026 16:01:15 +0000</lastBuildDate>
   <sy:updatePeriod>weekly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
   <generator>Handcrafted</generator>
 
+  <item>
+    <title>Leadership. Légitimité. Influence. Une campagne transnationale.</title>
+    <link>https://svenfranck.eu/projets/campagne.html</link>
+    <guid isPermaLink="true">https://svenfranck.eu/projets/campagne.html</guid>
+    <pubDate>Tue, 28 Apr 2026 16:01:15 +0000</pubDate>
+    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
+    <category><![CDATA[democracy]]></category>
+    <description><![CDATA[
+      <p>
+        Le site pour ma campagne pour devenir coprésident de Volt Europa, mon 
+        expérience de campagne transnationale et mon projet visant à faire de 
+        Volt une plateforme pour le leadership, la légitimité et l'influence 
+        au niveau européen.
+      </p>
+    ]]></description>
+  </item>
   <item>
     <title>Qui a peur du grand méchant loup ?</title>
     <link>https://svenfranck.eu/blog/Qui-a-peur-du-grand-mechant-loup.html</link>
@@ -344,22 +360,6 @@
         Quelle que soit la vision d'une future Union européenne, toute 
         modification des traités nécessitera l'unanimité. Comme en 
         informatique, la simple menace d'un fork va créer un levier. 
-      </p>
-    ]]></description>
-  </item>
-  <item>
-    <title>Budget de l’UE : compter les centimes au lieu de viser grand ?</title>
-    <link>https://svenfranck.eu/blog/Budget-de-l-UE-compter-les-centimes-au-lieu-de-viser-grand.html</link>
-    <guid isPermaLink="true">https://svenfranck.eu/blog/Budget-de-l-UE-compter-les-centimes-au-lieu-de-viser-grand.html</guid>
-    <pubDate>Thu, 17 Jul 2025 22:08:26 +0200</pubDate>
-    <dc:creator><![CDATA[Sven Franck]]></dc:creator>
-    <category><![CDATA[budget]]></category>
-    <description><![CDATA[
-      <p>
-        Hier, la Présidente de la Commission Ursula von der Leyen a présenté le cadre 
-        du nouveau budget européen (le MFF), qui sera négocié au cours des 24 prochains 
-        mois. Il s'élève à 1 984 milliards d’euros, soit 1,26 % du revenu national brut. 
-        En réalité, cela devrait être bien plus.
       </p>
     ]]></description>
   </item>
