@@ -1110,6 +1110,23 @@
                hreflang="fr"
                href="https://svenfranck.eu/projets/Campagne-transnationale-Leg2-Lancement.html"/>
   </url>
+  <url>
+    <loc>https://svenfranck.eu/projets/Campagne-transnationale-Leg3-Chez-moi.html</loc>
+    <lastmod>2026-05-14T12:00:14+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/projekte/Transnationale-Kampagne-Leg3-Zu-Hause.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/projects/Transnational-Campaign-Leg3-Homecoming.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/projets/Campagne-transnationale-Leg3-Chez-moi.html"/>
+  </url>
 </urlset>
 
 
