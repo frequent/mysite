@@ -1159,6 +1159,9 @@ div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banne
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom h1 {
   position: static;
 }
+div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom.banner-custom-condense h1 {
+  letter-spacing: -4px;
+}
 div[data-gadget-url$="gadget_sven_style.html"] main .sec-layout-highlight .banner-custom-position h1 {
   top: 60%;
 }
