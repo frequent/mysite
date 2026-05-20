@@ -1077,6 +1077,23 @@
                href="https://svenfranck.eu/projets/Programme-Prototype-de-l-UE.html"/>
   </url>
   <url>
+    <loc>https://svenfranck.eu/projecs/Programme-Culture-Europeenne.html</loc>
+    <lastmod>2026-05-14T12:04:15+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/projekte/Programm-Europaeische-Kultur.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/projects/Programme-European-Culture.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/projecs/Programme-Culture-Europeenne.html"/>
+  </url>
+  <url>
     <loc>https://svenfranck.eu/projets/Campagne-transnationale-Leg1-Echauffement.html</loc>
     <lastmod>2026-05-05T10:00:14+00:00</lastmod>
     <priority>0.81</priority>
