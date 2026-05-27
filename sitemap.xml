@@ -1044,7 +1044,7 @@
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/campagne.html</loc>
-    <lastmod>2026-04-28T16:01:15+00:00</lastmod>
+    <lastmod>2026-05-26T17:22:28+00:00</lastmod>
     <priority>0.81</priority>
     <xhtml:link
                rel="alternate"
@@ -1092,6 +1092,23 @@
                rel="alternate"
                hreflang="fr"
                href="https://svenfranck.eu/projecs/Programme-Culture-Europeenne.html"/>
+  </url>
+   <url>
+    <loc>Programme-Initiatives-Citoyennes-Europeennes.html</loc>
+    <lastmod>2026-05-26T17:22:28+00:00</lastmod>
+    <priority>0.81</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://svenfranck.eu/de/projekte/Programm-Europaeische-Buerger-Initiativen.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://svenfranck.eu/en/projects/Programme-European-Citizen-Initiatives.html"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fr"
+               href="https://svenfranck.eu/projecs/Programme-Initiatives-Citoyennes-Europeennes.html"/>
   </url>
   <url>
     <loc>https://svenfranck.eu/projets/Campagne-transnationale-Leg1-Echauffement.html</loc>
